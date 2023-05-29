@@ -1,0 +1,61 @@
+
+footer{
+  text-align: center;
+}
+.footer-top{
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 70px;
+}
+.footer-top img{
+  height: 50px;
+}
+.footer-top li{
+  padding: 0 12px;
+  position: relative;
+}
+.footer-bottom{
+  text-align: center;
+}
+footer p span {
+  margin: 20px;
+}
+.footer-center{
+  text-align: center;
+}
+.header,
+.footer{
+    background-color: rgb(231, 224, 224);
+}
+
+:root {
+    --clr-price: #b03232;
+}
+
+.price {
+    color: var(--clr-price);
+}
+
+@media screen and (max-width: 768px)  {
+
+    .banner__content--custom {
+        margin: 1.5rem 0;
+        align-items: center !important;
+    }
+
+}
+
+/* login page */
+
+.form-container-custom{
+    background-color: rgb(140, 140, 140);
+}
+
+.form {
+    background-color: rgb(200, 200, 200);
+    padding: 2rem;
+}
